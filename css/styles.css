@@ -15,7 +15,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.list {
+.header-list {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -39,6 +39,8 @@ width: 1200;
   padding-bottom: 215px;
 }
 
+
+
 .logo {
   color: var(--accent-color);
   font-family: raleway;
@@ -59,7 +61,7 @@ width: 1200;
   text-decoration: none;
 }
 
-.site-nav .link {
+.header-list .header-link {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -68,12 +70,12 @@ width: 1200;
   text-decoration: none;
 }
 
-.link:hover,
-.link:focus {
+.header-link:hover,
+.header-link:focus {
   color: var(--accent-color);
 }
 
-.link.current {
+.header-link .current {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
@@ -82,12 +84,12 @@ width: 1200;
   text-decoration: none;
 }
 
-.auth-nav .link:hover,
-.auth-nav .link:focus {
+.header-list:hover,
+.header-list:focus {
   color: var(--accent-color);
 }
 
-.auth-nav .link {
+.header-list .header-link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -96,7 +98,7 @@ width: 1200;
   text-decoration: none;
 }
 
-.auth-nav .link.current {
+.header-list .header-link .current {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
