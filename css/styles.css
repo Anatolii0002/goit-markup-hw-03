@@ -83,7 +83,7 @@ width: 1200;
   color: var(--accent-color);
 }
 
-.link.current {
+.link .current {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
@@ -106,7 +106,7 @@ width: 1200;
   text-decoration: none;
 }
 
-.auth-nav .link.current {
+.auth-nav .link .current {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
@@ -238,7 +238,7 @@ font-family: 'Roboto';
   text-decoration: none;
 }
 
-.button-applications.current {
+.button-applications .current {
 color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
