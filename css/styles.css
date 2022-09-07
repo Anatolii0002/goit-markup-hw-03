@@ -21,6 +21,10 @@ body {
   list-style: none;
 }
 
+.list {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
 }
