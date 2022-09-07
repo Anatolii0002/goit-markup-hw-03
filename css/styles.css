@@ -25,6 +25,11 @@ body {
   list-style: none;
 }
 
+.link {
+  text-decoration: none;
+}
+
+
 a {
   text-decoration: none;
 }
@@ -43,8 +48,6 @@ width: 1200;
   padding-top: 94px;
   padding-bottom: 215px;
 }
-
-
 
 .logo {
   color: var(--accent-color);
