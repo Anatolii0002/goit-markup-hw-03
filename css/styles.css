@@ -24,6 +24,7 @@ body {
 a {
   text-decoration: none;
 }
+
 .button {
   cursor: pointer;
 }
@@ -70,12 +71,12 @@ width: 1200;
   text-decoration: none;
 }
 
-.link:hover,
-.link:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--accent-color);
 }
 
-.link .current {
+.site-nav .link .current {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
@@ -84,12 +85,12 @@ width: 1200;
   text-decoration: none;
 }
 
-.link:hover,
-.link:focus {
+.auth-nav .link:hover,
+.auth-nav .link:focus {
   color: var(--accent-color);
 }
 
-.link {
+.auth-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -98,7 +99,7 @@ width: 1200;
   text-decoration: none;
 }
 
-.link .current {
+.auth-nav .link .current {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
