@@ -31,7 +31,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.site-nav .link {
+.container-site .site-nav {
   display: flex;
   padding: 0;
   margin: auto;
