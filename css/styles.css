@@ -31,13 +31,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-.container. .container-site {
-  display: flex;
-  justify-content: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
 .site-nav .link {
   display: flex;
   padding: 0;
