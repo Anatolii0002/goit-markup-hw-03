@@ -39,7 +39,7 @@ body {
 }
 
 .site-nav .link {
-  display: block;
+  display: flex;
   padding: 0;
   margin: auto;
   list-style: none;
