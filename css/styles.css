@@ -36,7 +36,8 @@ body {
   padding: 50px;
   margin: auto;
   list-style: none;
-  justify-content: space-between;
+  justify-content: space-around;
+  
 }
 
 .list {
