@@ -43,6 +43,7 @@ body {
   padding: 0;
   margin: auto;
   list-style: none;
+  justify-content: center;
 }
 
 .list {
