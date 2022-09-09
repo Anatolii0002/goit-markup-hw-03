@@ -33,16 +33,7 @@ body {
 
 .page-header {
   display: flex;
-  padding: 50px;
-  margin: auto;
-  list-style: none;
-  justify-content: space-around;
-  
-}
-
-.main-nav {
-  display: flex;
-  align-items: center;
+  list-style: none;  
 }
 
 .list {
@@ -56,6 +47,11 @@ body {
   text-decoration: none;
 }
 
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 a {
   text-decoration: none;
 }
@@ -65,8 +61,8 @@ a {
 }
 
 .container {
-margin-left:0 auto;
-margin-right:0 auto;
+margin-left: auto;
+margin-right: auto;
 width: 1200;
 padding-left: 15px;
 padding-right: 15px;
@@ -75,6 +71,15 @@ padding-right: 15px;
 .section {
   padding-top: 94px;
   padding-bottom: auto;
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.site-nav .item+.item {
+  margin-left: 50px;
 }
 
 .logo {
@@ -97,19 +102,6 @@ padding-right: 15px;
   text-decoration: none;
 }
 
-.site-nav {
-display: flex;
-margin-left: 93px;
-}
-
-.site-nav .item {
-  margin-right: 50px;
-}
-
-.site-nav .item:last-child {
-  margin-right: 0;
-}
-
 .site-nav .link {
   display: block;
   color: var(--primary-text-color);
@@ -124,7 +116,7 @@ margin-left: 93px;
 
 .auth-nav {
   display: flex;
- margin-left: auto; 
+  margin-left: auto; 
 }
 
 .auth-nav .item + .item {
