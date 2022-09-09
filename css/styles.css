@@ -196,7 +196,6 @@ a {
 
 .container-list {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .container-list .item + .item {
