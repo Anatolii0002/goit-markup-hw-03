@@ -194,6 +194,11 @@ a {
 
 /* Особливості */
 
+.container-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .container-list .item + .item {
 margin-left: 30px;
 }
@@ -216,6 +221,11 @@ margin-left: 30px;
 
 /* Чим ми займаємося */
 
+.container-work {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .container-work .item + .item {
   margin-left: 30px;
 }
@@ -230,6 +240,11 @@ margin-left: 30px;
 }
 
 /* Наша команда */
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .team-list .item + .item {
   margin-left: 30px;
