@@ -31,6 +31,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+.page-header {
+  list-style: none;
+}
+
 .container {
   display: flex;
   width: 1200;
@@ -38,12 +42,6 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.page-header {
-  display: flex;
-  list-style: none;
-
 }
 
 .list {
