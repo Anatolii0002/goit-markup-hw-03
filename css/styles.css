@@ -50,7 +50,7 @@ body {
 }
 
 .link {
-  display: inline-block;
+  display: block;
   text-decoration: none;
 }
 
