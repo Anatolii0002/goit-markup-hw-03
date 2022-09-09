@@ -31,7 +31,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.page-header .site-nav {
+.page-header {
   display: flex;
   padding: 50px;
   margin: auto;
@@ -46,6 +46,8 @@ body {
 }
 
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -97,6 +99,7 @@ padding-right: 15px;
 
 .site-nav {
 display: flex;
+margin-left: 93px;
 }
 
 .site-nav .item {
@@ -121,6 +124,7 @@ display: flex;
 
 .auth-nav {
   display: flex;
+ margin-left: auto; 
 }
 
 .auth-nav .item + .item {
