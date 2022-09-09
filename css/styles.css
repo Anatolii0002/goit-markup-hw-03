@@ -40,6 +40,11 @@ body {
   
 }
 
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 .list {
   list-style: none;
 }
@@ -90,13 +95,36 @@ padding-right: 15px;
   text-decoration: none;
 }
 
+.site-nav {
+display: flex;
+}
+
+.site-nav .item {
+  margin-right: 50px;
+}
+
+.site-nav .item:last-child {
+  margin-right: 0;
+}
+
 .site-nav .link {
+  display: block;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.auth-nav {
+  display: flex;
+}
+
+.auth-nav .item + .item {
+  margin-left: 50px;
 }
 
 .link:hover,
