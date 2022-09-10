@@ -170,6 +170,10 @@ a {
 }
 
 .hero-title {
+  border-top: 200px;
+  border-bottom: 280px;
+  border-right: 452px;
+  border-left: 452px;
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -196,6 +200,8 @@ a {
 
 .container-list {
   display: flex;
+  text-decoration: none;
+  margin-top: 94px;
 }
 
 .container-list .item + .item {
