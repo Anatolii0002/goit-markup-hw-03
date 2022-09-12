@@ -134,8 +134,6 @@ a {
 
 .link.current {
   display: block;
-  margin-top: 32px;
-  margin-bottom: 32px;
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
@@ -175,6 +173,7 @@ a {
 }
 
 .hero-title {
+  display: block;
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
