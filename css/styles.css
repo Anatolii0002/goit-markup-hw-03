@@ -150,6 +150,8 @@ a {
 
 .auth-nav .link {
   display: block;
+  margin-top: 32px;
+  margin-bottom: 32px;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
