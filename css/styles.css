@@ -133,6 +133,7 @@ a {
 }
 
 .link.current {
+  display: block;
   margin-top: 32px;
   margin-bottom: 32px;
   color: var(--accent-color);
