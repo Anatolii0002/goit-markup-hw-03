@@ -295,6 +295,10 @@ font-family: 'Roboto';
     letter-spacing: 0.03em;
 }
 
+.button-list .item + .item {
+  margin-left: 8px;
+}
+
 .button-applications:hover,
 .button-applications:focus {
   color: var(--accent-color);
