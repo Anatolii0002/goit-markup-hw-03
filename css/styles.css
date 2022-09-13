@@ -20,6 +20,7 @@ h6 {
 ul {
   margin: 0;
   padding-left: 0;
+  list-style: none;
 }
 
 /* Шапка сайта */
@@ -173,6 +174,14 @@ a {
   background-color: var(--primary-black-color);
 }
 
+.hero-main {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  max-width: 1600px;
+  margin: 0px auto;
+}
+
 .hero-title {
   margin-bottom: 30px; 
   color: var(--primary-white-color);
@@ -195,6 +204,7 @@ a {
   line-height: 1.88;
   align-items: center;
   text-align: center;
+  padding: 10px 32px;
   letter-spacing: 0.06em;
 }
 
@@ -292,7 +302,19 @@ a {
 }
 
 .button-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.button-list li:not(:first-child) {
+  margin-left: 8px;
+}
+
+
+.button-applications {
   display: inline-block;
+  text-align: center;
 }
 
 .button-applications {
@@ -304,10 +326,6 @@ a {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-}
-
-.button-applications .item + .item {
-  margin-left: 8px;
 }
 
 .button-applications:hover,
@@ -367,7 +385,7 @@ color: var(--primary-white-color);
 /* Футер */
 
 .footer {
-  flex-direction: column;
+  display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   margin: 0px;
@@ -382,6 +400,19 @@ color: var(--primary-white-color);
 
 .container-footer {
   margin-left: 215px;
+}
+
+.logotipo {
+  padding-bottom: 20px;
+}
+
+.address {
+  margin: 9px;
+}
+
+.address-list .address-mail .address-tel {
+  text-decoration: none;
+  font-style: normal;
 }
 
 
