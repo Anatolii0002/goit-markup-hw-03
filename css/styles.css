@@ -398,6 +398,11 @@ color: var(--primary-white-color);
   padding-bottom: 60px;
 }
 
+.footer {
+  margin-top: 12px;
+  margin-left: 215px;
+}
+
 .container-footer {
   margin-left: 215px;
 }
