@@ -407,6 +407,8 @@ color: var(--primary-white-color);
 
 .footer {
   display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--primary-black-color);
