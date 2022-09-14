@@ -283,7 +283,6 @@ a {
 
 .team-list {
   display: flex;
-  margin-top: 50px;
 }
 
 .team-list .item + .item {
@@ -421,11 +420,7 @@ color: var(--primary-white-color);
 }
 
 .logotipo {
-  padding-bottom: 20px;
-}
-
-.address {
-  margin: 9px;
+ margin-bottom: 20px;
 }
 
 .address-list .address-mail .address-tel {
@@ -450,6 +445,7 @@ color: var(--primary-white-color);
 }
 
 .address-city {
+  margin-bottom: 9px;
   color: var(--primary-white-color);
   font-family: "Roboto";
   font-style: normal;
@@ -461,6 +457,7 @@ color: var(--primary-white-color);
 }
 
 .address-mail {
+  margin-bottom: 9px;
   color: var(--title-white-color);
   font-family: "Roboto";
   font-style: normal;
