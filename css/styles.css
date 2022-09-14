@@ -407,25 +407,14 @@ color: var(--primary-white-color);
 
 .footer {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin: 0px;
-  margin-top: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--primary-black-color);
 }
 
-.footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.footer {
-  margin-top: 12px;
-}
-
-.container-footer {
+.footer .container {
   display: block;
-  margin-left: 215px;
+  justify-content: flex-start;
 }
 
 .logotipo {
