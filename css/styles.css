@@ -38,9 +38,6 @@ body {
 }
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
@@ -110,6 +107,12 @@ a {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+
+.container-main {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .site-nav .link {
@@ -289,11 +292,15 @@ a {
   margin-left: 30px;
 }
 
+.team-comand {
+  padding: 30px;
+}
+
 .team {
   margin-bottom: 50px;
 }
 
-.out-team {
+ .team-title {
   text-align: center;
   color: var(--primary-text-color);
   font-weight: 700;
@@ -304,7 +311,6 @@ a {
 }
 
 .our-people {
-  margin-top: 30px;
   margin-bottom: 10px;
   text-align: center;
   color: var(--primary-text-color);
@@ -316,7 +322,6 @@ a {
 }
 
 .people {
-  margin-bottom: 30px;
   text-align: center;
   color: var(--title-text-color);
   font-weight: 400;
@@ -373,6 +378,10 @@ a {
   margin-bottom: 30px;
 }
 
+.desing-page {
+  padding: 20px 24px;
+}
+
 .container-title:nth-child(3n) {
   margin-right: 0;
 }
@@ -382,7 +391,7 @@ a {
 }
 
 .desing-list {
-  padding: 20px 24px 4px;
+  margin-bottom: 4px;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -392,7 +401,6 @@ a {
 }
 
 .desing-title {
-  padding: 0 24px 20px;
   color: var(--title-text-color);
   font-weight: 400;
   font-size: 16px;
@@ -448,8 +456,15 @@ color: var(--primary-white-color);
   color: var(--accent-color);
 }
 
+.top-list {
+  margin-top: 9px;
+}
+
+.address {
+  margin-top: 20px;
+}
+
 .address-city {
-  margin-bottom: 9px;
   color: var(--primary-white-color);
   font-family: "Roboto";
   font-style: normal;
@@ -461,7 +476,6 @@ color: var(--primary-white-color);
 }
 
 .address-mail {
-  margin-bottom: 9px;
   color: var(--title-white-color);
   font-family: "Roboto";
   font-style: normal;
