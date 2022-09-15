@@ -111,6 +111,8 @@ a {
 
 .container-main {
   display: flex;
+  margin-left: 215px;
+  margin-right: 215px;
 }
 
 .site-nav .link {
@@ -353,6 +355,7 @@ a {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  border-style: none;
 }
 
 .button-applications:hover,
