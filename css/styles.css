@@ -111,8 +111,6 @@ a {
 
 .container-main {
   display: flex;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .site-nav .link {
