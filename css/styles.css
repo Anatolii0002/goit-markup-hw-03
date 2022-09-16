@@ -38,6 +38,8 @@ body {
 }
 
 .container {
+  display: flex;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
@@ -54,11 +56,6 @@ body {
 .link {
   text-decoration: none;
   margin: 0;
-}
-
-.main-nav {
-  display: flex;
-  align-items: center;
 }
 
 .auth-nav {
@@ -109,14 +106,7 @@ a {
   text-decoration: none;
 }
 
-.container-main {
-  display: flex;
-  margin-left: 215px;
-  margin-right: 215px;
-}
-
 .site-nav .link {
-  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color);
@@ -259,9 +249,9 @@ a {
   text-decoration: none;
 }
 
-.container-work {
-  display: flex;
-  justify-content: center;
+.image-work {
+  display: block;
+  block-size: auto;
 }
 
 .container-work .item + .item {
@@ -363,17 +353,15 @@ a {
   color: var(--accent-color);
 }
 
-.desing-container {
+.container-title {
   display: flex;
   flex-wrap: wrap;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.container-title {
+.flex-container {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -381,13 +369,14 @@ a {
 
 .desing-page {
   padding: 20px 24px;
+  border: 1px solid var(--primary-white-color);
 }
 
-.container-title:nth-child(3n) {
+.flex-container:nth-child(3n) {
   margin-right: 0;
 }
 
-.container-title:nth-last-child(-1 + 3n) {
+.flex-container:nth-last-child(-1 + 3n) {
   margin-bottom: 0;
 }
 
@@ -432,8 +421,8 @@ color: var(--primary-white-color);
   align-content: flex-start;
 }
 
-.logotipo {
- margin-bottom: 20px;
+.address-list {
+ margin-top: 9px;
 }
 
 .address-list .address-mail .address-tel {
@@ -441,6 +430,9 @@ color: var(--primary-white-color);
   font-style: normal;
 }
 
+.address {
+  margin-top: 20px;
+}
 
 .address-city:hover,
 .address-city:focus {
@@ -459,10 +451,6 @@ color: var(--primary-white-color);
 
 .top-list {
   margin-top: 9px;
-}
-
-.address {
-  margin-top: 20px;
 }
 
 .address-city {
