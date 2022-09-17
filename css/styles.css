@@ -362,12 +362,14 @@ a {
   color: var(--accent-color);
 }
 
-.container-title {
+.container-img {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: auto;
 }
 
 .flex-container {
@@ -378,7 +380,7 @@ a {
 
 .desing-page {
   padding: 20px 24px;
-  border: 1px solid var(--primary-white-color);
+  border: 4px solid var(--primary-white-color);
 }
 
 .flex-container:nth-child(3n) {
