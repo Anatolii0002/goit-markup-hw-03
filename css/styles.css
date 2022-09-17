@@ -58,9 +58,13 @@ body {
   margin: 0;
 }
 
-.auth-nav {
+.main-nav {
   display: flex;
   align-items: center;
+}
+
+.auth-nav {
+  display: flex;
   margin-left: auto;
 }
 
@@ -106,19 +110,20 @@ a {
   text-decoration: none;
 }
 
+.auth-nav .item + .item {
+  margin-left: 50px;
+}
+
 .site-nav .link {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  color: var(--primary-text-color);
+  display: block;
   font-weight: 500;
   font-size: 14px;
+  color: var(--primary-text-color);
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-}
-
-.auth-nav .item + .item {
-  margin-left: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .link:hover,
@@ -249,9 +254,13 @@ a {
   text-decoration: none;
 }
 
+.container-work {
+  display: flex;
+}
+
 .image-work {
   display: block;
-  block-size: auto;
+  width: 370px;
 }
 
 .container-work .item + .item {
