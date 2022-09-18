@@ -411,8 +411,8 @@ a {
 }
 
 .button-applications.current {
-color: var(--primary-white-color);
-    background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 /* Футер */
