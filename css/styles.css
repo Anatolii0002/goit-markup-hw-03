@@ -90,6 +90,8 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
   display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .studio {
@@ -98,10 +100,6 @@ a {
 
 .contact-link {
   margin-left: auto;
-}
-
-.contact-link .item + .item {
-  margin-left: 50px;
 }
 
 .nav-link li:not(:first-child),
@@ -175,7 +173,7 @@ a {
 }
 
 .hero-title {
-  width: 800px;
+  max-width: 696px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 30px; 
