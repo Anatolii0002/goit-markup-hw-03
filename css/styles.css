@@ -34,13 +34,10 @@ body {
 }
 
 .page-header {
-  list-style: none;
   border-bottom: 1px solid #ececec;
 }
 
 .container {
-  display: flex;
-  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
@@ -91,7 +88,7 @@ a {
   margin-left: 50px;
 }
 
-.logotipo {
+.logo {
   color: var(--accent-color);
   font-family: raleway;
   font-weight: 700;
@@ -159,16 +156,9 @@ a {
 /* Герой */
 
 .hero {
+  padding: 200px 0;
   text-align: center;
   background-color: var(--primary-black-color);
-}
-
-.hero-main {
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  max-width: 1600px;
-  margin: 0px auto;
 }
 
 .hero-title {
@@ -196,6 +186,7 @@ a {
   text-align: center;
   padding: 10px 32px;
   letter-spacing: 0.06em;
+  border-radius: 4px;
 }
 
 /* Особливості */
@@ -328,8 +319,8 @@ a {
 
 .btns .btn-style:hover,
 .btns .btn-style:focus {
-  background-color:var(--accent-color)
-  color: var(--primary-white-color: #ffffff);
+  background-color:var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 .container-img {
@@ -386,9 +377,6 @@ a {
 /* Футер */
 
 .footer {
-  display: flex;
-  justify-content: flex-start;
-  align-content: flex-start;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--primary-black-color);
