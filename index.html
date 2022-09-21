@@ -18,17 +18,17 @@
     <!--Шапка сайта-->
     <header class="page-header">
         <div class="container">
-             <nav class="main-nav">
+             <nav>
                     <a href="./index.html" class="logo"><span>Web</span><span class="studio">Studio</span></a>
-                <ul class="site-nav list">
-                    <li class="item"><a href="Студія" class="link current">Студія</a></li>
-                    <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
-                    <li class="item"><a href="Контакти" class="link">Контакти</a></li>
+                <ul class="nav-link list">
+                    <li><a href="Студія" class="link current">Студія</a></li>
+                    <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+                    <li><a href="Контакти" class="link">Контакти</a></li>
                 </ul>
             </nav>
                 <ul class="contact-link list">
-                    <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-                    <li class="item"><a href="tel:+380961111111" class="link">+380961111111</a></li>
+                    <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="link">+380961111111</a></li>
                 </ul>
         </div>        
     </header>
@@ -36,45 +36,49 @@
         <!--Герой-->
     <section class="hero">
         <div class="container">
-        <h1 class="hero-title">Ефективні рішення для<br> вашого бізнесу</h1>
+        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="button-primary">Замовити послугу</button>
         </div>
     </section>
 
         <!--Особливості-->
     
-    <section class="section-list">
-        <ul class="container-list list">
+    <section class="section">
+        <div class="container">
+        <h2 class="visually-hidden">Переваги</h2>
+        <ul class="peculiarities">
             <li class="item">
-                <h2 class="pec-title">УВАГА ДО ДЕТАЛЕЙ</h2>
-                <p class="pec-text">
-                        Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+                <h3 class="peculiarities-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                <p class="peculiarities-text">
+                    Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
                 </p>
             </li>
             <li class="item">
-                <h2 class="pec-title">ПУНКТУАЛЬНІСТЬ</h2>
-                <p class="pec-text">
+                <h3 class="peculiarities-title">ПУНКТУАЛЬНІСТЬ</h3>
+                <p class="peculiarities-text">
                     Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
                 </p>
             </li>
             <li class="item">
-                <h2 class="pec-title">ПЛАНУВАННЯ</h2>
-                <p class="pec-text">
+                <h3 class="peculiarities-title">ПЛАНУВАННЯ</h3>
+                <p class="peculiarities-text">
                     Так само консультація з широким активом значною мірою зумовлює.
                 </p>
             </li>
             <li class="item">
-                <h2 class="pec-title">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
-                <p class="pec-text">
+                <h3 class="peculiarities-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                <p class="peculiarities-text">
                     Значимість цих проблем настільки очевидна, що реалізація планових завдань.
                 </p>
             </li>
         </ul>
+    </div>
     </section>
+
         <!--Чим ми займаємося-->
     <section class="section">
-      <h2 class="what-doing">Чим ми займаємося</h2>
     <div class="container">
+        <h2 class="section-title">Чим ми займаємося</h2>
         <ul class="container-work list">
             <li class="item">
                 <img class="image-work" src="./images/box1.jpg" alt="руки на клавіатурі перед планшетом" width="370" />
@@ -90,36 +94,36 @@
     </section>
 
         <!--Наша команда-->
-    <section class="section-team">
-    <h2 class="team-title team">Наша команда</h2>
+    <section class="section">
     <div class="container">
+        <h2 class="section-title team">Наша команда</h2>
         <ul class="team-list list">
                 <li class="team-container item">
                     <img src="./images/img4.jpg" alt="фото чоловіка" width="270" />
                 <div class="team-comand">
-                    <h3 class="our-people">Ігор Дем'яненко</h3>
-                    <p class="people">Product Designer</p>
+                    <h3 class="team-name">Ігор Дем'яненко</h3>
+                    <p class="team-position">Product Designer</p>
                 </div>
                 </li>
                 <li class="team-container item">
                     <img src="./images/img2.jpg" alt="фото жінки" width="270" />
                 <div class="team-comand">
-                    <h3 class="our-people">Ольга Рєпіна </h3>
-                    <p class="people">Frontend Developer</p>
+                    <h3 class="team-name">Ольга Рєпіна </h3>
+                    <p class="team-position">Frontend Developer</p>
                 </div>
                 </li>
                 <li class="team-container item">
                     <img src="./images/img5.jpg" alt="фото чоловіка" width="270" />
                 <div class="team-comand">
-                    <h3 class="our-people">Микола Тарасов </h3>
-                    <p class="people">Marketing</p>
+                    <h3 class="team-name">Микола Тарасов </h3>
+                    <p class="team-position">Marketing</p>
                 </div>
                 </li>
                 <li class="team-container item">
                     <img src="./images/img3.jpg" alt="фото чоловіка" width="270" />
                 <div class="team-comand">
-                    <h3 class="our-people">Михайло Єрмаков </h3>
-                    <p class="people">UI Designer</p>
+                    <h3 class="team-name">Михайло Єрмаков </h3>
+                    <p class="team-position">UI Designer</p>
                 </div>
                 </li>  
         </ul>
