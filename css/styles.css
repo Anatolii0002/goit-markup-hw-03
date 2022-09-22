@@ -34,8 +34,6 @@ body {
 }
 
 .page-header {
-  display: flex;
-  align-items: center;
   border-bottom: 1px solid #ececec;
 }
 
@@ -71,6 +69,11 @@ a {
   padding-bottom: 94px;
 }
 
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 .nav-link,
 .contact-link {
   display: flex;
@@ -83,15 +86,13 @@ a {
 
 
 .logo {
+  display: inline-block;
   color: var(--accent-color);
   font-family: raleway, sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  display: inline-block;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .studio {
@@ -109,13 +110,12 @@ a {
 
 .nav-link .link {
   display: block;
+  padding: 32px 0;
   font-weight: 500;
   color: var(--primary-text-color);
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  padding: 32px 0px;
-  margin-top: 0px;
 }
 
 .link {
@@ -124,7 +124,6 @@ a {
   font-weight: 400;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  margin-top: 10px;
 }
 
 .link:hover,
@@ -146,9 +145,8 @@ a {
 }
 
 .contact-link .link {
-  display: flex;
-  padding: 20px 0px;
-  margin-top: 0px;
+  display: block;
+  padding: 32px 0;
   color: var(--title-text-color);
   font-weight: 500;
   line-height: 1.14;
@@ -383,23 +381,13 @@ a {
   background-color: var(--primary-black-color);
 }
 
-.footer .container {
-  display: block;
-  justify-content: flex-start;
-  align-content: flex-start;
-}
-
 .address-list {
- margin-top: 9px;
+  margin-top: 20px;
 }
 
 .address-list .address-mail .address-tel {
   text-decoration: none;
   font-style: normal;
-}
-
-.address {
-  margin-top: 20px;
 }
 
 .address-mail:hover,
@@ -423,14 +411,8 @@ a {
   text-decoration: none;
 }
 
+.address-tel,
 .address-mail {
-  color: var(--title-white-color);
-  font-style: normal;
-  line-height: 1.71;
-  text-decoration: none;
-}
-
-.address-tel {
   color: var(--title-white-color);
   font-style: normal;
   line-height: 1.71;
