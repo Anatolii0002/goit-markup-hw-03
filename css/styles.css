@@ -203,6 +203,10 @@ a {
 
 /* Особливості */
 
+.section-peculiarities {
+  padding-top: 94px;
+}
+
 .peculiarities {
   display: flex;
   text-decoration: none;
